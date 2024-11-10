@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amna's Portfolio</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: white;
+            color: black;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: navy;
+            margin-top: 50px;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-shadow: 2px 2px 8px rgba(255, 223, 0, 0.8); /* Golden Yellow */
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: black;
+            margin: 30px 0;
+            text-transform: uppercase;
+            text-shadow: 1px 1px 3px rgba(255, 223, 0, 0.8); /* Golden Yellow */
+            transition: color 0.3s ease;
+        }
+
+        h2:hover {
+            color: rgba(255, 223, 0, 0.9); /* Golden Yellow Hover */
+        }
+
+        /* Content Section Styles */
+        #content-text, #content-text- {
+            font-size: 1.5em;
+            padding: 15px 25px;
+            margin: 20px;
+            background-color: navy;
+            border-radius: 25px;
+            color: rgba(255, 223, 0, 0.9); /* Golden Yellow */
+            box-shadow: 0 0 12px rgba(255, 223, 0, 0.7);
+            display: inline-block;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        #content-text:hover, #content-text- :hover {
+            transform: scale(1.05);
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: navy;
+            color: rgba(255, 223, 0, 0.9); /* Golden Yellow */
+            padding: 15px 0;
+            font-size: 1.2em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 -3px 6px rgba(255, 223, 0, 0.7);
+        }
+
+        /* Button Styles */
+        .button {
+            font-size: 1.2em;
+            background-color: rgba(255, 223, 0, 0.9); /* Golden Yellow */
+            color: navy;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            margin: 20px;
+            transition: transform 0.3s ease-in-out, background-color 0.3s;
+        }
+
+        .button:hover {
+            transform: scale(1.1);
+            background-color: navy;
+            color: rgba(255, 223, 0, 0.9); /* Golden Yellow */
+        }
+
+        /* Profile Image Styles */
+        img {
+            max-width: 180px;
+            border-radius: 50%;
+            box-shadow: 4px 4px 12px rgba(255, 223, 0, 0.6); /* Golden Yellow */
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Hi, I'm Amna</h1>
+    
+    <div>
+        <h2 id="content-text">/Experience</h2>
+        <h2 id="content-text-">/Projects</h2>
+    </div>
+
+    <!-- Optional Profile Image -->
+    <img src="https://via.placeholder.com/180" alt="Amna's Image">
+
+    <!-- Action Buttons -->
+    <div>
+        <button class="button">Contact Me</button>
+        <button class="button">View Portfolio</button>
+    </div>
+
+    <!-- Footer -->
+    <footer>Colors: Navy, Golden Yellow, White, Black</footer>
+</body>
+</html>
