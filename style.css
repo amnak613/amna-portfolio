@@ -1,0 +1,71 @@
+#content-text {
+    color: rgb(27, 27, 158);
+    text-align: left;
+    padding-left: 15%;
+    font-size: 35px;
+}
+.main-info{
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+  }
+  .main-info a{
+    margin-top: 30px;
+    text-align: center;
+  }
+  /* Styling for the image */
+  .image img{
+    padding-top: 25px;
+    width: 100%;
+   
+    
+   
+  }
+
+  /* Styling for the text section */
+  .bio-text h1{
+    font-size: 50px;
+  }
+
+
+
+.bio-text p {
+    font-size: 25px;
+    color: #666;
+    
+  }
+
+  .experience {
+    text-align: center;
+  }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .project-card {
+    background-color: rgb(232, 232, 232);
+    border: 1px solid rgb(198, 193, 193);;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+
+  .project-card h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .project-card p {
+    font-size: 0.9em;
+    color: #666;
+  }
