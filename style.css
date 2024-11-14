@@ -4,6 +4,40 @@
     padding-left: 15%;
     font-size: 35px;
 }
+
+
+ ul {
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  }
+
+  .nav-bar li {
+        float: right;
+
+  }
+  .nav-bar #brand-name{
+    float: left;
+    text-align: center;
+    padding-left: 5%;
+    color: goldenrod;
+  }
+
+  .nav-bar a{
+    display: block;
+    padding: 8px;
+    
+    color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+
+  .nav-bar a:hover{
+    background-color: black;
+  }
 .main-info{
     display: grid;
     justify-content: space-between;
@@ -22,6 +56,28 @@
    
     
    
+  }
+
+  #email-button{
+    border: none;
+  color: white;
+  padding: 16px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+    background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+
+  }
+
+  #email-button a:hover{
+    background-color: #666;
+
   }
 
   /* Styling for the text section */
